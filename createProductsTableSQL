@@ -1,0 +1,12 @@
+create database BillingSystem;
+
+Use BillingSystem;
+
+Create table products(
+productID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+productName varchar(256) NOT NULL,
+productQty int NOT NULL,
+productDescription varchar(256) NOT NULL);
+
+Drop table products;
+
