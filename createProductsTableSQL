@@ -6,6 +6,7 @@ Create table products(
 productID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
 productName varchar(256) NOT NULL,
 productQty int NOT NULL,
+productPrice int NOT NULL,
 productDescription varchar(256) NOT NULL);
 
 Drop table products;
