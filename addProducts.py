@@ -7,9 +7,12 @@ class Add:
     def newProduct(self,productName,productQty,productPrice,productDescription):
         mysqlCur = self.mysqlConn.cursor()
         mysqlCur.execute("insert into products(productName,productQty,productPrice,productDescription) values ('" + productName +"'," + productQty + "," + productPrice + ",'" + productDescription + "');")
-        print('New Product Added')
+        return 'New Product Added'
 
     def updateQty(self,productName,addQty):
-        pass
+        mysqlCur = self.mysqlConn.cursor()
+        mysqlCur.execute("update products set productQty = productQty + " + addQty + " where productName = '" + productName +"'")
+        return 'Product Qty Updated'
 
-Add().newProduct('Mucinex','5','15.4','bronchitis')
+#Add().newProduct('Mucinex','5','15.4','bronchitis')
+#Add().updateQty('Mucinex','3')
