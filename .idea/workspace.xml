@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad51a3e-d002-4e00-ba0d-7f62ae4f5c87" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +18,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZVlrGyeIrIoeiZ5JLAUGJzbAHo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ccpa_samsung" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/my-first-project" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.addProducts">
+  <component name="RunManager" selected="Python.searchProducts">
     <configuration name="addProducts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Billing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +85,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.addProducts" />
         <item itemvalue="Python.searchProducts" />
       </list>
     </recent_temporary>
@@ -94,8 +99,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584932339619</updated>
+      <workItem from="1585336501099" duration="826000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -109,5 +118,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585337528087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585337528087" />
   </component>
 </project>
