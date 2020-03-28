@@ -16,5 +16,5 @@ class search:
         rows = mysqlCur.fetchall()
         return rows
 
-print(search().viewProducts())
-print(search().searchProduct('bengay'))
+#print(search().viewProducts())
+#print(search().searchProduct('bengay'))

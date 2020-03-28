@@ -40,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.searchProducts">
+  <component name="RunManager" selected="Python.addProducts">
     <configuration name="addProducts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Billing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.addProducts" />
         <item itemvalue="Python.searchProducts" />
       </list>
     </recent_temporary>
